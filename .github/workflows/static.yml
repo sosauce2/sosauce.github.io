@@ -1,0 +1,151 @@
+<html>
+<head>
+  <style>
+/* CSS */
+.button-17 {
+  align-items: center;
+  appearance: none;
+  background-color: #ffffff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+    /* Rounded rectangles */
+    .rounded-rectangle {
+      border-radius: 10px;
+    }
+
+    /* Dark mode */
+    body {
+      background-color: #333;
+      color: #fff;
+    }
+
+    /* Fluid layout */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .column {
+      width: 100%;
+      float: left;
+    }
+
+    /* Header */
+    header {
+      background-color: #222;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 3px;
+    }
+
+    /* Main content */
+    main {
+      padding: 20px;
+    }
+
+    main h2 {
+      margin: 0;
+      font-size: 2em;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 2px;
+    }
+
+    main p {
+      font-size: 1.5em;
+      line-height: 1.5;
+      margin: 20px 0;
+    }
+
+    main p2 {
+      font-size: 1.5em;
+      line-height: 1.5;
+      margin: 20px 0;
+    }
+
+    /* Footer */
+      footer p {
+      margin: 0;
+      font-size: 1em;
+    }
+    
+    footer p1 {
+      margin: 0;
+      font-size: 1em;
+    }
+
+    main h2 {
+  margin: 0;
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+}
+p1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+  </style>
+  <!-- Import Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <title>sosauce</title>
+</head>
+<body>
+  <header>
+    <h1>Rage Orb</h1>
+  </header>
+  <main>
+    <div class="container">
+      <div class="column rounded-rectangle">
+        <h2>About the game</h2>
+        <p style="text-align:center">Rage Orb is a fast-paced action game that puts your reflexes to the test. Control your orb as you can cause it's gonna be harder harder as the speed increases. You will finished by raging if you try.</p>
+        <p style="text-align:center">Happy Raging 😃</p2>
+        <a class="button-17" href="replaceWithActualGame.apk" download>
+          Download
+        </a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p1>Copyright 2023, sosauce</p1>
+  </footer>
+</body>
+</html>
